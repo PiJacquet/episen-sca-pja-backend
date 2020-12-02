@@ -17,7 +17,7 @@ public class BackendController {
 	@SuppressWarnings("rawtypes")
 	/* Ajout d'une valeur */
 	public ResponseEntity addValue(@RequestBody String value) {
-		log.info("adding Value " + value);
+		log.info("Text received :" + value);
 		StaticData.writeInFile(value);
 		return ResponseEntity.ok().build();
 	}

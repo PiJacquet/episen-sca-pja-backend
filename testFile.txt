@@ -1,0 +1,2 @@
+valueToBeDetected:1.3898714535223253E7
+valueToBeDetected:4.770047994483786E7
